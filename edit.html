@@ -1,50 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>99 Acers</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
-       
+        .logo {}
+
+        .logo img {
+            width: 133px;
+        }
+
+        /* section{
+            background-image: image-set(https://static.ieplads.com/bmsjs/banners/99acres-hp/1366/1366-banner-1.jpg);
+        } */
+
+
+        nav {
+            display: flex;
+            width: 100vw;
+            height: 30vh;
+            justify-content: space-around;
+            align-items: center;
+            background-color: aqua;
+            
+
+        }
+
+        .right ul {
+            display: flex;
+            gap: 35px;
+        }
+
+        .right ul li {
+            list-style: none;
+        }
+
+        .right ul li button {
+            margin: 1px;
+            padding: 1px;
+            background-color: white;
+        }
+
+        .right ul li img {
+            width: 30px;
+            height: 30px;
+        }
     </style>
 </head>
 
 <body>
     <section>
-        <nav class="navbar">
-            <div class="logo">99acres</div>
-
-            <ul class="nav-links">
-                <li><a href="#">For Buyers</a></li>
-                <li><a href="#">For Tenants</a></li>
-                <li><a href="#">For Owners</a></li>
-                <li><a href="#">For Dealers / Builders</a></li>
-                <li><a href="#">Insights</a></li>
-            </ul>
-
-            <button class="btn-post">Post property FREE</button>
-        </nav>
+            <nav>
+                <div class="logo">
+                    <img src="https://static.99acres.com/universalhp/img/nnacres_white_v2.png" alt="">
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>For Buyers</li>
+                        <li>For Tenants</li>
+                        <li>For Owners</li>
+                        <li>For Dealers / Builders</li>
+                        <li>Insights</li>
+                        <li><button><span>Post property</span></button></li>
+                        <li><img src="/circle-user.png"></li>
+                        <li><img src="/user-headset copy.png" alt=""></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </nav>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
