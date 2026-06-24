@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>99 Acres</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container1 {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px 50px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #fff;
+            font-weight: 600;
+            z-index: 99;
+            background-color: red;
+            
+
+
+
+
+
+
+
+
+
+
+            /* margin: 10px;
+            background-color: aqua;
+            border: 2px solid red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; */
+        }
+
+        .container2>div {
+            display: inline-block;
+            vertical-align: middle;
+
+        }
+
+        .container2>div>* {
+            display: inline-block;
+            vertical-align: middle;
+            padding-right: 16px;
+            height: 43px;
+        }
+
+        .container2>.img1 {
+            width: 105px;
+            height: auto;
+        }
+
+        .container3>div>* :last-child {
+            margin: 0;
+            display: inline-block;
+            vertical-align: middle;
+            padding-right: 16px;
+            height: 43px;
+        }
+
+        .ellipsis {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .item {
+            position: absolute;
+            left: -80px;
+            top: 20px;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            background: #fff;
+            width: 680px;
+            height: 442px;
+            border-radius: 8px;
+            box-shadow: 0 9px 16px 0. rgba(0, 106, 194, .2) transition:all;
+            z-index: 9;
+        }
+
+        .container4 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        /* .item1 {
+            align-self: flex-start;
+
+        }
+
+        .item2 button {
+
+        }
+
+        .item3 {
+            flex-grow:1 ;
+
+            align-self: flex-start;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container container1">
+        <div>
+            <div class="container container2">
+                <img class="img1" src="https://static.99acres.com/universalhp/img/nnacres_white_v2.png" alt="">
+            </div>
+            <div class="container container3">
+                <span class="ellipsis"> PG in South Delhi</span>
+                <div class="item"></div>
+                ::after
+            </div>
+            <div class="container container4">
+                <!-- ::before -->
+                <div class="items1">For Buyers</div>
+                <div class="items2">For Tenants</div>
+                <div class="items3">For Owners</div>
+                <div class="items4">For Dealers / Builders</div>
+                <div class="items5">Insights</div>
+
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
