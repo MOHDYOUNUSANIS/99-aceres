@@ -6,12 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .sec2 .container {}
 
-    
+        .sec2 .container ul li button img {
+            height: 16px;
+            width: 16px;
+            padding: 1px;
+        }
+
+        .sec2 .container ul li button {
+            background-color: white;
+            border-radius: 8px;
+            margin: 3px;
+        }
+
+        .sec2 .container ul li {
+            list-style: none;
+        }
+
+        .sec2 .container ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .container .row4 ul li {
+            list-style: none;
+
+        }
+        .container .row4 ul  {
+           display: flex;
+           justify-content: start;
+           align-items: center;
+           gap: 3px;
+
+        }
+        .container .row4 ul li img {
+            width:16px ;
+            height: 16px;
+            background-color: aquamarine;
+            
+
+        }
+    </style>
+
+
 </head>
 
 <body>
-    <section>
+    <section class="sec1">
         <nav>
             <div class="logo">
                 <img src="https://static.99acres.com/universalhp/img/nnacres_white_v2.png" alt="">
@@ -73,11 +118,32 @@
                     </div>
                 </div>
             </div>
+
         </main>
     </section>
-    <section>
-
+    <section class="sec2">
+        <div class="container">
+            <ul>
+                <li>Recent searches:</li>
+                <li><button><img src="/time-left.png" alt=""> Buy in Greater Kailash 2, South Delhi</button></li>
+                <li><button><img src="/time-left.png" alt="">View all searches</button></li>
+            </ul>
+        </div>
     </section>
+    <section class="sec3">
+        <div class="container">
+            <div class="row row3"><span>Continue browsing. </span></div>
+            <div class="row row4">
+                <ul>
+                    <li><button><img class="" src="/signboard.png" alt="">PG in South Delhi</button></li>
+                    <li><button><img class="" src="/double-bed.png" alt="">Buy in South Delhi</button></li>
+                    <li><button><img class="" src="/location.png" alt="">Explore New City</button></li>
+                </ul>
+                </button>
+            </div>
+        </div>
+    </section>
+
 
 </body>
 
