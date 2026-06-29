@@ -1,0 +1,99 @@
+     /* SECTION - 1 */
+     section .cont1 {
+         position: absolute;
+         z-index: n1;
+     }
+
+     section .container img {
+         width: 100vw;
+     }
+
+
+     nav .logo img {
+         width: 100px;
+        
+
+     }
+
+     nav {
+         position: relative;
+         display: flex;
+         background: transparent;
+         justify-content: space-around;
+
+
+     }
+
+     nav .logo {
+         margin: 15px;
+     }
+
+     nav ul {
+         list-style: none;
+
+         display: flex;
+         align-items: center;
+         gap: 40px;
+
+     }
+
+     nav ul li {
+         display: flex;
+         justify-content: center;
+         color: #ffffff;
+
+
+     }
+
+     nav ul li img {
+         height: 50px;
+     }
+
+     section .navbar div .container .cont2 {
+         margin: 0px 50px 0px 50px;
+     }
+
+
+     nav ul li button {
+         background-color: white;
+         padding: 5px;
+         border-color: white;
+         border-radius: 10px;
+     }
+
+     nav ul li button span {
+         background-color: rgb(31, 184, 31);
+         border-radius: 3px;
+         margin: 10px;
+         font-size: x-small;
+         padding: 2px;
+     }
+
+     ul li .btn2 {
+         border-radius: 15px;
+     }
+
+
+     ul li .btn2 img {
+         width: 16px;
+         height: 16px;
+
+     }
+
+     ul li .btn3 {
+         border-radius: 15px;
+
+     }
+
+     ul li .btn3 img {
+         width: 16px;
+         height: 16px;
+     }
+
+     ul li .imga {
+         width: 16px;
+         height: 16px;
+     }
+
+     /* SECTION - 2 */
+
