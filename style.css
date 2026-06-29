@@ -11,8 +11,11 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-image: url(https://static.ieplads.com/bmsjs/banners/99acres-hp/1366/1366-banner-1.jpg);
-    wid
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
+
 
 .right ul {
     display: flex;
