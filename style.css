@@ -1,134 +1,98 @@
-.logo {}
+     /* SECTION - 1 */
+     section .cont1 {
+         position: absolute;
+         z-index: n1;
+     }
 
-.logo img {
-    width: 133px;
-}
-
-nav {
-    display: flex;
-    width: 100vw;
-    height: 30vh;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url(https://static.ieplads.com/bmsjs/banners/99acres-hp/1366/1366-banner-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-
-}
+     section .container img {
+         width: 100vw;
+     }
 
 
-.right ul {
-    display: flex;
-    gap: 35px;
-}
-
-.right ul li {
-    list-style: none;
-}
-
-.right ul li button {
-    margin: 1px;
-    padding: 1px;
-    background-color: white;
-}
-
-.right ul li img {
-    width: 30px;
-    height: 30px;
-}
-
-.container {
-    width: 100vw;
-}
+     nav .logo img {
+         width: 100px;
 
 
+     }
 
-.container .card .row ul {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-}
+     nav {
+         position: relative;
+         display: flex;
+         background: transparent;
+         justify-content: space-around;
 
-.card {
-    border: 2px solid gray;
-    border-radius: 20px;
-    margin-left: 90px;
-    margin-right: 90px;
-}
 
-.row1 ul li {
-    list-style: none;
-}
+     }
 
-.row2 {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-}
+     nav .logo {
+         margin: 15px;
+     }
 
-.col2 button img {
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    padding: 1px;
-    align-items: center;
-}
+     nav ul {
+         list-style: none;
 
-.sec2 .container ul li button img {
-    height: 16px;
-    width: 16px;
-    padding: 1px;
-}
+         display: flex;
+         align-items: center;
+         gap: 40px;
 
-.sec2 .container ul li button {
-    background-color: white;
-    border-radius: 8px;
-    margin: 3px;
-}
+     }
 
-.sec2 .container ul li {
-    list-style: none;
-}
+     nav ul li {
+         display: flex;
+         justify-content: center;
+         color: #ffffff;
 
-.sec2 .container ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
 
-.container .row4 ul li {
-    list-style: none;
+     }
 
-}
+     nav ul li img {
+         height: 50px;
+     }
 
-.container .row4 ul {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 3px;
+     section .navbar div .container .cont2 {
+         margin: 0px 50px 0px 50px;
+     }
 
-}
 
-.container .row4 ul li img {
-    width: 16px;
-    height: 16px;
-    background-color: aquamarine;
-}
+     nav ul li button {
+         background-color: white;
+         padding: 5px;
+         border-color: white;
+         border-radius: 10px;
+     }
 
-.sec3 .container .row4 ul li button {
-    border-radius: 16px;
-    background-color: white;
-    margin: 2px;
-    padding: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+     nav ul li button span {
+         background-color: rgb(31, 184, 31);
+         border-radius: 3px;
+         margin: 10px;
+         font-size: x-small;
+         padding: 2px;
+     }
 
-.sec3 .container .row4 ul li button img {
-    border-radius: 16px;
-    background-color: aqua;
-}
+     ul li .btn2 {
+         border-radius: 15px;
+     }
+
+
+     ul li .btn2 img {
+         width: 16px;
+         height: 16px;
+
+     }
+
+     ul li .btn3 {
+         border-radius: 15px;
+
+     }
+
+     ul li .btn3 img {
+         width: 16px;
+         height: 16px;
+     }
+
+     ul li .imga {
+         width: 16px;
+         height: 16px;
+     }
+
+     /* SECTION - 2 */
