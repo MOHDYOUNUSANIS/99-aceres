@@ -8,11 +8,64 @@
          width: 100vw;
      }
 
+     .card {
+         margin: -30px;
+         position: relative;
+         background-color: white;
+         border-radius: 10px;
+         border: 2px solid black;
+         width: 48%;
+         margin: -27px auto 0px;
+         border-radius: 10px;
+     }
+
+     .cont3 {
+         padding: 5px 5px 5px 5px;
+         display: flex;
+         gap: 25px;
+         justify-content: center;
+     }
+
+     .cont3 .item span {
+         font-size: x-small;
+         background-color: #1fb81f;
+         margin: 10px;
+         padding: 2px;
+         border-radius: 2px;
+     }
+     .cont4{
+        display: flex;
+     }
+     .cont4 .dropdown{
+        margin: 10px 0px 10px 40px;
+        
+     }
+     .cont4 .dropdown button{
+        background-color: white;
+        border-color: #ffffff;
+
+     }
+     .cont4 .cont5{
+        margin: auto;
+     }
+     .cont5 button{
+        border-radius: 15px;
+        border: 1px solid white;
+     }
+     .cont5 button .btn1{
+        background-color: lightskyblue;
+     }
+     .cont5 button img {
+        width: 16px;
+        height: 16px;
+        
+        border-radius: 10px;
+     }
+     
+
 
      nav .logo img {
          width: 100px;
-        
-
      }
 
      nav {
@@ -20,8 +73,6 @@
          display: flex;
          background: transparent;
          justify-content: space-around;
-
-
      }
 
      nav .logo {
@@ -30,19 +81,15 @@
 
      nav ul {
          list-style: none;
-
          display: flex;
          align-items: center;
          gap: 40px;
-
      }
 
      nav ul li {
          display: flex;
          justify-content: center;
          color: #ffffff;
-
-
      }
 
      nav ul li img {
@@ -52,7 +99,6 @@
      section .navbar div .container .cont2 {
          margin: 0px 50px 0px 50px;
      }
-
 
      nav ul li button {
          background-color: white;
@@ -73,16 +119,13 @@
          border-radius: 15px;
      }
 
-
      ul li .btn2 img {
          width: 16px;
          height: 16px;
-
      }
 
      ul li .btn3 {
          border-radius: 15px;
-
      }
 
      ul li .btn3 img {
@@ -96,4 +139,3 @@
      }
 
      /* SECTION - 2 */
-
